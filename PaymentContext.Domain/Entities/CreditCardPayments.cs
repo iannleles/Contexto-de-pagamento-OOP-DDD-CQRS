@@ -1,4 +1,5 @@
 using System;
+using PaymentContext.Domain.ValueObjects;
 
 namespace PaymentContext.Domain.Entities
 {
@@ -13,9 +14,9 @@ namespace PaymentContext.Domain.Entities
             decimal total,
             DateTime totalPaid,
             string peyer,
-            string document,
-            string address,
-            string email
+            Document document,
+            Address address,
+            Email email
             ) : base(
                 paidDate,
                 expireDate,
