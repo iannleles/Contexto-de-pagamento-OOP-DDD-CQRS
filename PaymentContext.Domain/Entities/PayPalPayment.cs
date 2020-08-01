@@ -10,7 +10,7 @@ namespace PaymentContext.Domain.Entities
             DateTime paidDate,
             DateTime expireDate,
             decimal total,
-            DateTime totalPaid,
+            decimal totalPaid,
             string peyer,
             Document document,
             Address address,

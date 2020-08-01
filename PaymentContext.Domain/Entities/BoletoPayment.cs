@@ -11,7 +11,7 @@ namespace PaymentContext.Domain.Entities
         public BoletoPayment(string barCode, string boletoNumber, DateTime paidDate,
             DateTime expireDate,
             decimal total,
-            DateTime totalPaid,
+            decimal totalPaid,
             string peyer,
             Document document,
             Address address,
