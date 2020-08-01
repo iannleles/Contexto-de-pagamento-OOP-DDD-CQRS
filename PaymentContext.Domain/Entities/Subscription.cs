@@ -1,0 +1,4 @@
+namespace PaymentContext.Domain.Entities
+{
+
+}
